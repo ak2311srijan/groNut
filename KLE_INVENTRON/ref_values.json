@@ -1,0 +1,47 @@
+[
+  {
+    "lux_min": 0,
+    "lux_max": 100,
+    "fertility_level": "Very Low (Too Dark)",
+    "nitrogen_level_ppm": {
+      "min": 10,
+      "max": 30
+    }
+  },
+  {
+    "lux_min": 101,
+    "lux_max": 500,
+    "fertility_level": "Low",
+    "nitrogen_level_ppm": {
+      "min": 30,
+      "max": 70
+    }
+  },
+  {
+    "lux_min": 501,
+    "lux_max": 2000,
+    "fertility_level": "Moderate",
+    "nitrogen_level_ppm": {
+      "min": 70,
+      "max": 150
+    }
+  },
+  {
+    "lux_min": 2001,
+    "lux_max": 10000,
+    "fertility_level": "High",
+    "nitrogen_level_ppm": {
+      "min": 150,
+      "max": 250
+    }
+  },
+  {
+    "lux_min": 10001,
+    "lux_max": null,
+    "fertility_level": "Very High (Full Sun)",
+    "nitrogen_level_ppm": {
+      "min": 250,
+      "max": 400
+    }
+  }
+]
